@@ -14,6 +14,7 @@ var bb = document.getElementById('bb');
 var art = document.getElementById('art');
 var meh = document.getElementById('meh');
 var ehh = document.getElementById('ehh');
+sounds = [sound, soundd, sounddd, soundddd]
 
 function createText(elem){
 	resetall();
@@ -54,10 +55,7 @@ function changeMe() {
 }
 
 function stop() {
-	sound.pause();
-	soundd.pause();
-	sounddd.pause();
-	soundddd.pause();
+	sounds.pause();
 }
 function resetall(){
 	a.innerHTML = '<img src="images/uzi.png" class="contain2 pointer" onclick="createText(this)"/>';
