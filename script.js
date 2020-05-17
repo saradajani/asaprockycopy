@@ -56,10 +56,7 @@ function changeMe() {
 }
 
 function stop() {
-	sound.pause();
-	soundd.pause();
-	sounddd.pause();
-	soundddd.pause();
+	sounds.pause();
 }
 
 function resetall(){
