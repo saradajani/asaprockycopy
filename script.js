@@ -61,7 +61,7 @@ function stop() {
 }
 
 function resetall(){
-	a.style.display='uzi';
+	a.style.backgroundImage = 'uzi';
 	b.innerHTML = '<img src="images/bub.png" class="contain2 pointer" onclick="createTextt(this)" />';
 	c.innerHTML = '<img src="images/blu.png" class="contain2 pointer" onclick="createTexttt(this)"/>';
 	d.innerHTML = '<img src="images/y.png" class="contain2 pointer" onclick="createTextttt(this)"/>';
