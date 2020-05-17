@@ -56,7 +56,11 @@ function changeMe() {
 }
 
 function stop() {
-	sounds.pause();
+	sound.pause();
+	soundd.pause();
+	sounddd.pause();
+	soundddd.pause();
+	
 }
 function resetall(){
 	a.innerHTML = '<img src="images/uzi.png" class="contain2 pointer" onclick="createText(this)"/>';
