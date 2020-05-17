@@ -14,6 +14,7 @@ var bb = document.getElementById('bb');
 var art = document.getElementById('art');
 var meh = document.getElementById('meh');
 var ehh = document.getElementById('ehh');
+var uzi = document.getElementById('uzi); 
 
 sounds = ["sound", "soundd", "sounddd", "soundddd"];
 
@@ -60,7 +61,7 @@ function stop() {
 }
 
 function resetall(){
-	a.innerHTML = '<img src="images/uzi.png" class="contain2 pointer" onclick="createText(this)"/>';
+	uzi.style.display='block';
 	b.innerHTML = '<img src="images/bub.png" class="contain2 pointer" onclick="createTextt(this)" />';
 	c.innerHTML = '<img src="images/blu.png" class="contain2 pointer" onclick="createTexttt(this)"/>';
 	d.innerHTML = '<img src="images/y.png" class="contain2 pointer" onclick="createTextttt(this)"/>';
