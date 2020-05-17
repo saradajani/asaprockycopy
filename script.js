@@ -14,7 +14,7 @@ var bb = document.getElementById('bb');
 var art = document.getElementById('art');
 var meh = document.getElementById('meh');
 var ehh = document.getElementById('ehh');
-var uzi = document.getElementById('uzi); 
+var uzi = document.getElementById('uzi'); 
 
 sounds = ["sound", "soundd", "sounddd", "soundddd"];
 
