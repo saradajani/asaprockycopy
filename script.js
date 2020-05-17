@@ -15,8 +15,22 @@ var art = document.getElementById('art');
 var meh = document.getElementById('meh');
 var ehh = document.getElementById('ehh');
 var uzi = document.getElementById('uzi'); 
+var uzi = document.getElementById('uzi'); 
+var uzi = document.getElementById('uzi'); 
+var uzi = document.getElementById('uzi'); 
 
-sounds = ["sound", "soundd", "sounddd", "soundddd"];
+x=1, x=2, x=3, x=4
+run createText
+if x=1
+else
+else if x=2
+What I am showing with algorithm, I am explaining how a function works and is calling other algortihs--> calling reset all algorithm
+Math/logic --> conditional statement
+calling on functions which are defined below
+subabstration example: reset all or stop function (reduced complexity) reduce that to single line of code
+reset all 
+had a problem--> resolved it making code more efficient
+sound playing on eachother, needed a stop function
 
 function createText(elem){
 	resetall();
@@ -57,11 +71,14 @@ function changeMe() {
 }
 
 function stop() {
-	sounds.pause();
-}
+	sound.pause();
+	soundd.pause();
+	sounddd.pause();
+	soundddd.pause();
+1}
 
 function resetall(){
-	a.innerHTML = '<img src="images/uzi.png" class="contain2 pointer" onclick="createText(this)"/>';
+	a.style.backgroundImage = 'uzi';
 	b.innerHTML = '<img src="images/bub.png" class="contain2 pointer" onclick="createTextt(this)" />';
 	c.innerHTML = '<img src="images/blu.png" class="contain2 pointer" onclick="createTexttt(this)"/>';
 	d.innerHTML = '<img src="images/y.png" class="contain2 pointer" onclick="createTextttt(this)"/>';
