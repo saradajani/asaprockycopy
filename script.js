@@ -60,8 +60,8 @@ function stop() {
 	soundd.pause();
 	sounddd.pause();
 	soundddd.pause();
-	
 }
+
 function resetall(){
 	a.innerHTML = '<img src="images/uzi.png" class="contain2 pointer" onclick="createText(this)"/>';
 	b.innerHTML = '<img src="images/bub.png" class="contain2 pointer" onclick="createTextt(this)" />';
