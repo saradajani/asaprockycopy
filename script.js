@@ -14,7 +14,8 @@ var bb = document.getElementById('bb');
 var art = document.getElementById('art');
 var meh = document.getElementById('meh');
 var ehh = document.getElementById('ehh');
-sounds = [sound, soundd, sounddd, soundddd]
+
+sounds = ["sound", "soundd", "sounddd", "soundddd"]
 
 function createText(elem){
 	resetall();
