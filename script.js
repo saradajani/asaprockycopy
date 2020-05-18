@@ -41,7 +41,6 @@ function createText (elem) {
 	d.innerHTML = "A$AP Rocky - Canal St ft. Bones";
 	stop();
 	soundddd.play();
-    };
 }
 
 
