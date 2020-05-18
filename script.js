@@ -14,14 +14,13 @@ var bb = document.getElementById('bb');
 var art = document.getElementById('art');
 var meh = document.getElementById('meh');
 var ehh = document.getElementById('ehh');
- 
+var uzi = document.getElementById('uzi'); 
+var bub = document.getElementById('bub'); 
+var blu = document.getElementById('blu'); 
+var y = document.getElementById('y');
 
-function createText (elem) {
-    var uzi = document.getElementById('uzi'); 
-    var bub = document.getElementById('bub'); 
-    var blu = document.getElementById('blu'); 
-    var y = document.getElementById('y');
 
+function createText () {
     if (uzi.clicked == true) {
         resetall();
 	a.innerHTML = "A$AP Mob - RAF ft. A$AP Rocky, Playboi Carti, Quavo, Lil Uzi Vert, Frank Ocean";
@@ -67,7 +66,7 @@ function stop() {
 }
 
 function resetall(){
-	a.style.backgroundImage = 'uzi';
+	a.innerHTML = '<img src="images/uzi.png" class="contain2 pointer" onclick="createText(this)"/>';
 	b.innerHTML = '<img src="images/bub.png" class="contain2 pointer" onclick="createTextt(this)" />';
 	c.innerHTML = '<img src="images/blu.png" class="contain2 pointer" onclick="createTexttt(this)"/>';
 	d.innerHTML = '<img src="images/y.png" class="contain2 pointer" onclick="createTextttt(this)"/>';
