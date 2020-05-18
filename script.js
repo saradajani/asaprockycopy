@@ -19,8 +19,7 @@ var bub = document.getElementById('bub');
 var blu = document.getElementById('blu'); 
 var y = document.getElementById('y');
 
-
-function createText (elem) {
+function createText (el) {
     if (uzi.clicked == true) {
         resetall();
 	a.innerHTML = "A$AP Mob - RAF ft. A$AP Rocky, Playboi Carti, Quavo, Lil Uzi Vert, Frank Ocean";
@@ -41,6 +40,7 @@ function createText (elem) {
 	d.innerHTML = "A$AP Rocky - Canal St ft. Bones";
 	stop();
 	soundddd.play();
+    }
 }
 
 
