@@ -20,7 +20,7 @@ var blu = document.getElementById('blu');
 var y = document.getElementById('y');
 
 
-function createText () {
+function createText (elem) {
     if (uzi.clicked == true) {
         resetall();
 	a.innerHTML = "A$AP Mob - RAF ft. A$AP Rocky, Playboi Carti, Quavo, Lil Uzi Vert, Frank Ocean";
