@@ -14,10 +14,10 @@ var bb = document.getElementById('bb');
 var art = document.getElementById('art');
 var meh = document.getElementById('meh');
 var ehh = document.getElementById('ehh');
-var 1 = document.getElementById('uzi'); 
-var 2 = document.getElementById('bub'); 
-var 3 = document.getElementById('blu'); 
-var 4 = document.getElementById('y');
+var uzi = document.getElementById('uzi'); 
+var bub = document.getElementById('bub'); 
+var blu = document.getElementById('blu'); 
+var y = document.getElementById('y');
 
 function createText (elem) {
     if (uzi.clicked == true) {
