@@ -14,24 +14,37 @@ var bb = document.getElementById('bb');
 var art = document.getElementById('art');
 var meh = document.getElementById('meh');
 var ehh = document.getElementById('ehh');
-var uzi = document.getElementById('uzi'); 
-var bub = document.getElementById('bub'); 
-var blu = document.getElementById('blu'); 
-var y = document.getElementById('y');
+var 1 = document.getElementById('uzi'); 
+var 2 = document.getElementById('bub'); 
+var 3 = document.getElementById('blu'); 
+var 4 = document.getElementById('y');
 
-function createText (el) {
-    if console.log(event.uzi); {
+function createText (elem) {
+    if (uzi.clicked == true) {
         resetall();
 	a.innerHTML = "A$AP Mob - RAF ft. A$AP Rocky, Playboi Carti, Quavo, Lil Uzi Vert, Frank Ocean";
 	stop();
 	sound.play();
-    }else if (x == 2) {
-	resetall();
+    } else if (bub.clicked == true) {
+        resetall();
 	b.innerHTML = "A$AP Mob - Yamborghini High (Audio) ft. Juicy J ";
 	stop();
 	soundd.play();
-    }
+    } else if (blu.clicked == true) {
+        resetall();
+	c.innerHTML = "Chief Keef - Blowin Minds ft. A$AP Rocky, Playboi Carti & ASAP Nast";
+	stop();
+	sounddd.play();
+    } else if (y.clicked == true) {
+	resetall();
+	d.innerHTML = "A$AP Rocky - Canal St ft. Bones";
+	stop();
+	soundddd.play();
+	}
 }
+
+
+
 function spin(elem) {
 	testing.classList.toggle("spin");
 	hah.play();
