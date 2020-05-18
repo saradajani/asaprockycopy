@@ -18,32 +18,21 @@ var uzi = document.getElementById('uzi');
 var bub = document.getElementById('bub'); 
 var blu = document.getElementById('blu'); 
 var y = document.getElementById('y');
-
+x = 0
 function createText (el) {
-    if (uzi.clicked == true) {
+	x = x + 1
+    if (x == 1) {
         resetall();
-	a.innerHTML = "A$AP Mob - RAF ft. A$AP Rocky, Playboi Carti, Quavo, Lil Uzi Vert, Frank Ocean";
+	d.innerHTML = "A$AP Rocky - Canal St ft. Bones";
 	stop();
 	sound.play();
-    } else if (bub.clicked == true) {
-        resetall();
+    }else if (x == 2) {
+	resetall();
 	b.innerHTML = "A$AP Mob - Yamborghini High (Audio) ft. Juicy J ";
 	stop();
 	soundd.play();
-    } else if (blu.clicked == true) {
-        resetall();
-	c.innerHTML = "Chief Keef - Blowin Minds ft. A$AP Rocky, Playboi Carti & ASAP Nast";
-	stop();
-	sounddd.play();
-    } else if (y.clicked == true) {
-	resetall();
-	d.innerHTML = "A$AP Rocky - Canal St ft. Bones";
-	stop();
-	soundddd.play();
     }
 }
-
-
 function spin(elem) {
 	testing.classList.toggle("spin");
 	hah.play();
