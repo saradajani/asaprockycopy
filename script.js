@@ -31,16 +31,7 @@ function createText (el) {
 	b.innerHTML = "A$AP Mob - Yamborghini High (Audio) ft. Juicy J ";
 	stop();
 	soundd.play();
-    }else if (x == 3) {
-	resetall();
-	c.innerHTML = "Chief Keef - Blowin Minds ft. A$AP Rocky, Playboi Carti & ASAP Nast";
-	stop();
-	sounddd.play();
-    } else if (x == 4) {
-	resetall();
-	d.innerHTML = "A$AP Rocky - Canal St ft. Bones";
-	stop();
-	soundddd.play();    
+    }
 }
 function spin(elem) {
 	testing.classList.toggle("spin");
